@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
+.todo{
+    
+    width: 100px;
+    min-width: 540px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: lemonchiffon;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    
+    
+}
+h1{
+    color: blue;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+
+ul, li{
+    list-style: none;
+    text-align: Left;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+
+}
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+a {
+background-color: rgb(88, 6, 6);
+color: rgb(247, 236, 236);
+text-align: center;
+border: 3px solid;
+padding: 10px 20px;
+
+}
+
+button{
+    margin-left: 300px;
+}
+
